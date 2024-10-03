@@ -565,6 +565,12 @@ body {
   #PRICING
 \*-----------------------------------*/
 
+#pricing {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 .pricing::before {
   inset: 0;
   /* background-color: var(--eerie-black-2_85);
@@ -747,6 +753,7 @@ body {
   padding: 80px 15px;
   text-align: center;
   color: var(--white);
+  border-radius: var(--radius-8);
 }
 
 .appoin-card .section-title {
@@ -856,6 +863,7 @@ textarea.input-field {
   position: relative;
   margin: 25px;
   padding: 15px;
+  border-radius: var(--radius-8);
 }
 
 .footer .input-wrapper:focus-within {
@@ -982,6 +990,7 @@ a.contact-link:is(:hover, :focus) {
   background-color: var(--eerie-black-3);
   text-align: center;
   padding: 15px;
+  border-radius: var(--radius-8);
 }
 
 .copyright-link {
@@ -1059,7 +1068,9 @@ a.contact-link:is(:hover, :focus) {
   .h2 {
     --fs-30: 3.5rem;
   }
-
+  #servicesBtn {
+    margin-left: 0.7rem;
+  }
   /**
    * HEADER
    */
@@ -1121,7 +1132,8 @@ a.contact-link:is(:hover, :focus) {
   }
 
   .hero-text {
-    font-size: var(--fs-18);
+    font-size: var(--fs-24);
+    padding-left: 0.9rem;
   }
 
   /**
@@ -1257,6 +1269,7 @@ a.contact-link:is(:hover, :focus) {
 
   .pricing-tab-container {
     padding: 40px;
+    border-radius: var(--radius-8);
   }
 
   .pricing-card .wrapper {
@@ -1529,11 +1542,11 @@ a.contact-link:is(:hover, :focus) {
    * FOOTER
    */
 
-   .footer-link-box {
+  .footer-link-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 4rem; 
-}
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
 
   /**
    * BACK TO TOP
