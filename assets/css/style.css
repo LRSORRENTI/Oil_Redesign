@@ -83,6 +83,16 @@
   box-sizing: border-box;
 }
 
+/* Add transition effect */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+}
+
 li {
   list-style: none;
 }
