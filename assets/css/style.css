@@ -379,7 +379,7 @@ body {
 .header-bottom.active {
   position: fixed;
   top: 0;
-  background-color: var(--rich-black-fogra-39);
+  background-color: #202020;
   transform: translateY(-100%);
   animation: slideIn 0.5s ease forwards;
 }
@@ -1120,7 +1120,7 @@ a.contact-link:is(:hover, :focus) {
   }
 
   .logo .span {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
   }
 
   /**
