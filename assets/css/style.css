@@ -1187,6 +1187,7 @@ a.contact-link:is(:hover, :focus) {
 
   .appoin-card .card-content {
     padding-inline: 50px;
+    margin: auto;
   }
 
   /**
